@@ -93,11 +93,14 @@
                     </a>
                     <a href="" class="hover:text-slate-400">
                         <div class="w-full flex items-center space-x-4">
-                            <i class="fa fa-phone border border-gray-100 hover:bg-blue-900 rounded-full p-2"></i>
+                            <a href="#"
+                                class="w-10 h-10 flex items-center justify-center bg-blue-900 rounded-full border border-gray-100">
+                                <i class="fa fa-phone  text-white"></i>
+                            </a>
                             <span>0712345678</span>
                         </div>
                     </a>
-                    <div class="w-full flex items-center space-x-6">
+                    <div class="w-full flex items-center md:ml-5 space-x-6">
                         <a href="#"
                             class="w-10 h-10 flex items-center justify-center bg-blue-900 rounded-full border border-gray-100">
                             <i class="fa-brands fa-x-twitter text-white text-lg"></i>
