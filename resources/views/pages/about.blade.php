@@ -32,42 +32,71 @@
     </div>
 
     {{-- our story --}}
-    <section class="w-full bg-gradient-to-r from-blue-300 to-blue-100 p-6 md:p-12">
-        <div class="w-11/12 md:w-8/12 mx-auto text-center my-2">
-            <h2 class="text-blue-900 font-semibold mb-4 uppercase tracking-wide">Our Story</h2>
-            <p class="text-lg md:text-2xl font-semibold text-gray-700">What made Sesware Nexus evolve</p>
-        </div>
-        <div class="w-11/12 md:w-8/12 my-2 text-justify">
-            <p class="text-lg text-gray-600 mt-4">Sesware Nexus was born from a shared vision among our Founders to bridge
-                the gap between technology and business needs in Tanzania.</p>
-            <p class="text-lg text-gray-600 mt-4">Recognizing the growing demand for customized software solutions and
-                professional graphic design, we established Sesware Nexus in 2024 to provide local businesses with reliable
-                and innovative services.</p>
-            <p class="text-lg text-gray-600 mt-4">From our early projects, we focused on Providing Software solutions for
-                small to mid-size businesses. Commitment to Quality, Integrity and Collaboration has been a cornerstone of
-                our growth.</p>
-            <p class="text-lg text-gray-600 mt-4">Sesware Nexus is a trusted partner for businesses across different regions
-                and industries in Tanzania, helping them leverage the power of technology and design to achieve their goals.
-            </p>
+    <section class="relative w-full px-6 pt-6 md:px-12 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="{{ asset('images/KANYASI_66.JPG') }}" alt="Background" class="w-full h-full object-cover opacity-90" />
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-50 opacity-90"></div>
         </div>
 
-        <div class="w-11/12 md:w-8/12 my-4">
-            <h4 class="text-lg md:text-xl font-semibold text-gray-700 mb-4">Our Pillars</h4>
-            <div class="text-gray-700 flex items-center flex-wrap gap-2">
-                <span
-                    class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Innovation</span>
-                <span
-                    class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Quality</span>
-                <span
-                    class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Collaboration</span>
-                <span
-                    class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Integrity</span>
-                <span
-                    class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Client
-                    Focus</span>
+        <!-- Foreground Content -->
+        <div class="relative z-10">
+            <div class="w-11/12 md:w-8/12 mx-auto text-center mt-2">
+                <h2 class="text-blue-900 font-semibold mb-4 uppercase tracking-wide">Our Story</h2>
+                <p class="text-lg md:text-2xl font-semibold text-gray-700">What made Sesware Nexus evolve</p>
+            </div>
+
+            <div class="flex w-full flex-col lg:flex-row items-center gap-4">
+                <!-- Text Content -->
+                <div class="lg:w-[56%]">
+                    <div class="my-2 text-justify">
+                        <p class="text-lg text-gray-700 mt-1">
+                            Sesware Nexus was born from a shared vision among our Founders to bridge the gap between
+                            technology
+                            and business needs in Tanzania.
+                        </p>
+                        <p class="text-lg text-gray-700 mt-4">
+                            Recognizing the growing demand for customized software solutions and professional graphic
+                            design, we
+                            established Sesware Nexus in 2024 to provide local businesses with reliable and innovative
+                            services.
+                        </p>
+                        <p class="text-lg text-gray-700 mt-4">
+                            From our early projects, we focused on providing software solutions for small to mid-size
+                            businesses. Commitment to Quality, Integrity and Collaboration has been a cornerstone of our
+                            growth.
+                        </p>
+                        <p class="text-lg text-gray-700 mt-4">
+                            Sesware Nexus is a trusted partner for businesses across different regions and industries in
+                            Tanzania, helping them leverage the power of technology and design to achieve their goals.
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="text-lg md:text-xl font-semibold text-gray-800 mb-4">Our Pillars</h4>
+                        <div class="text-gray-800 flex items-center flex-wrap gap-2">
+                            <span
+                                class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Innovation</span>
+                            <span
+                                class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Quality</span>
+                            <span
+                                class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Collaboration</span>
+                            <span
+                                class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Integrity</span>
+                            <span
+                                class="rounded-full py-1 px-3 border bg-gradient-to-r from-orange-600 to-orange-500 text-white border-orange-700 font-semibold">Client
+                                Focus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Side -->
+                <div class="lg:w-[45%] w-full h-[600px]">
+                    <img src="{{ asset('images/us3.png') }}" alt="Profile Image"
+                        class="h-full lg:max-h-[600px] w-auto object-contain">
+                </div>
             </div>
         </div>
     </section>
+
 
     {{-- mission & vision --}}
     <section class="md:py-16">
@@ -113,7 +142,7 @@
             </div>
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 text-md">
                 <div
-                    class="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
+                    class="rounded-[5px] overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
                     <!-- Full-Width Image -->
                     <div class="w-full h-60">
                         <img src="{{ asset('images/KANYASI_57.jpg') }}" alt="Profile Image"
@@ -121,31 +150,32 @@
                     </div>
 
                     <!-- Content Section -->
-                    <div class="p-6 flex flex-col items-center text-white">
+                    <div class="p-4 flex flex-col items-center text-white">
                         <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Suleiman Ramadhan</h2>
                         <p class="italic text-sm text-center text-gray-700">Co-Founder & Lead Software Developer</p>
 
                         <!-- Social Icons -->
                         <div class="flex justify-center gap-4 mt-4">
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
-                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
+                                <i class="fa-brands fa-x-twitter text-white text-sm"></i>
                             </a>
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
-                                <i class="fab fa-instagram text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
+                                <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
 
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
-                                <i class="fa-brands fa-linkedin-in text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
+                                <i class="fa-brands fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
+
                     </div>
                 </div>
 
                 <div
-                    class="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
+                    class="rounded-[5px] overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
                     <!-- Full-Width Image -->
                     <div class="w-full h-60">
                         <img src="{{ asset('images/KANYASI_50.jpg') }}" alt="Profile Image"
@@ -153,31 +183,32 @@
                     </div>
 
                     <!-- Content Section -->
-                    <div class="p-6 flex flex-col items-center text-white">
+                    <div class="p-4 flex flex-col items-center text-white">
                         <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Erick Manyasi</h2>
                         <p class="italic text-sm text-center text-gray-600">Co-Founder & Lead Software Developer</p>
 
                         <!-- Social Icons -->
                         <div class="flex justify-center gap-4 mt-4">
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
-                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
+                                <i class="fa-brands fa-x-twitter text-white text-sm"></i>
                             </a>
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
-                                <i class="fab fa-instagram text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
+                                <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
 
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
-                                <i class="fa-brands fa-linkedin-in text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
+                                <i class="fa-brands fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
+
                     </div>
                 </div>
 
                 <div
-                    class="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
+                    class="rounded-[5px] overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
                     <!-- Full-Width Image -->
                     <div class="w-full h-60">
                         <img src="{{ asset('images/KANYASI_61.jpg') }}" alt="Profile Image"
@@ -185,31 +216,32 @@
                     </div>
 
                     <!-- Content Section -->
-                    <div class="p-6 flex flex-col items-center text-white">
-                        <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Said Bessa</h2>
+                    <div class="p-4 flex flex-col items-center text-white">
+                        <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Said Hassan</h2>
                         <p class="italic text-sm text-center text-gray-600">Co-Founder & Lead Software Developer</p>
 
                         <!-- Social Icons -->
                         <div class="flex justify-center gap-4 mt-4">
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
-                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
+                                <i class="fa-brands fa-x-twitter text-white text-sm"></i>
                             </a>
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
-                                <i class="fab fa-instagram text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
+                                <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
 
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
-                                <i class="fa-brands fa-linkedin-in text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
+                                <i class="fa-brands fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
+
                     </div>
                 </div>
 
                 <div
-                    class="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
+                    class="rounded-[5px] overflow-hidden shadow-2xl bg-gradient-to-t from-blue-400 to-blue-50 transition hover:scale-[1.02] duration-300">
                     <!-- Full-Width Image -->
                     <div class="w-full h-60">
                         <img src="{{ asset('images/KANYASI_61.jpg') }}" alt="Profile Image"
@@ -217,26 +249,27 @@
                     </div>
 
                     <!-- Content Section -->
-                    <div class="p-6 flex flex-col items-center text-white">
-                        <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Gilbert Akabanga</h2>
+                    <div class="p-4 flex flex-col items-center text-white">
+                        <h2 class="text-lg text-center tracking-wide text-gray-900 font-semibold">Gilbert Amani</h2>
                         <p class="italic text-sm text-center text-gray-600">Senior Graphic Designer</p>
 
                         <!-- Social Icons -->
                         <div class="flex justify-center gap-4 mt-4">
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
-                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-950 hover:bg-gray-800 transition duration-300">
+                                <i class="fa-brands fa-x-twitter text-white text-sm"></i>
                             </a>
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
-                                <i class="fab fa-instagram text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 transition duration-300">
+                                <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
 
                             <a href="#"
-                                class="w-10 h-10 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
-                                <i class="fa-brands fa-linkedin-in text-white text-lg"></i>
+                                class="w-8 h-8 flex items-center justify-center rounded-full bg-[#0077B5] hover:bg-[#005983] transition duration-300">
+                                <i class="fa-brands fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -247,12 +280,12 @@
     <section
         class="mx-auto p-6 md:p-12 flex flex-col md:flex-row my-12 bg-gradient-to-tr from-blue-900 to-blue-950 rounded-sm shadow-2xl text-white">
         <div class="w-full md:w-1/3 my-4 p-4 space-y-6">
-            <i class="fa fa-handshake text-4xl md:text-6xl text-orange-400"></i>
-            <h3 class="text-4xl md:text-5xl font-bold leading-tight">Partner With Us</h3>
+            <i class="fa fa-handshake text-4xl md:text-5xl text-orange-400"></i>
+            <h3 class="text-2xl md:text-3xl font-bold leading-tight">Partner With Us</h3>
 
             <div class="w-fit">
                 <button
-                    class="py-3 px-6 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-lg md:text-xl font-semibold transition-all duration-500 shadow-lg hover:scale-105">
+                    class="py-2 px-4 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-lg md:text-xl font-semibold transition-all duration-500 shadow-lg hover:scale-105">
                     Get In Touch
                 </button>
             </div>
@@ -262,28 +295,28 @@
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-puzzle-piece text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     Tailored software and design to meet your unique business needs
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-clock text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     On-time project delivery and ongoing support
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-users text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     We work closely with you to ensure your vision is realized
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-line-chart text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     Delivering solutions that drive measurable business growth
                 </span>
             </div>

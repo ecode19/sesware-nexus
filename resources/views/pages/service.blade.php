@@ -354,12 +354,12 @@
     <section
         class="mx-auto p-6 md:p-12 flex flex-col md:flex-row my-12 bg-gradient-to-tr from-blue-900 to-blue-950 rounded-sm shadow-2xl text-white">
         <div class="w-full md:w-1/3 my-4 p-4 space-y-6">
-            <i class="fa fa-handshake text-4xl md:text-6xl text-orange-400"></i>
-            <h3 class="text-4xl md:text-5xl font-bold leading-tight">Partner With Us</h3>
+            <i class="fa fa-handshake text-4xl md:text-4xl text-orange-400"></i>
+            <h3 class="text-2xl md:text-4xl font-bold leading-tight">Partner With Us</h3>
 
             <div class="w-fit">
                 <button
-                    class="py-3 px-6 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-lg md:text-xl font-semibold transition-all duration-500 shadow-lg hover:scale-105">
+                    class="py-2 px-4 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-lg md:text-xl font-semibold transition-all duration-500 shadow-lg hover:scale-105">
                     Get In Touch
                 </button>
             </div>
@@ -369,28 +369,28 @@
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-puzzle-piece text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     Tailored software and design to meet your unique business needs
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-clock text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     On-time project delivery and ongoing support
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-users text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     We work closely with you to ensure your vision is realized
                 </span>
             </div>
             <div
                 class="flex items-start space-x-4 bg-white bg-opacity-10 border border-orange-500 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
                 <i class="fa fa-line-chart text-orange-400 text-2xl"></i>
-                <span class="text-white text-base md:text-lg font-medium">
+                <span class="text-white text-base md:text-md font-medium">
                     Delivering solutions that drive measurable business growth
                 </span>
             </div>
